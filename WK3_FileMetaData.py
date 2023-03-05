@@ -48,7 +48,7 @@ def main():
                 tbl.add_row(processed_file.GetFileMetaData())
         print(tbl)
         tbl_string = tbl.get_string()
-        with open('./SundstromK_WK3_prettytable.csv', 'w') as f:
+        with open('./File_MetaData_prettytable.csv', 'w') as f:
             f.write(tbl_string)
 
 if __name__ == '__main__':
